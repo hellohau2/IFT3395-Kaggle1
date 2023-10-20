@@ -1,0 +1,17 @@
+Prototype du code : 
+
+Training set size: 35808
+Validation set size: 8952
+Epoch 0 : Loss 0.6931471805599453
+c:\Users\Admin\Desktop\IFT3395-Kaggle1\model.py:11: RuntimeWarning: overflow encountered in exp
+  return 1/(1 + (np.exp(-z)))
+c:\Users\Admin\Desktop\IFT3395-Kaggle1\model.py:27: RuntimeWarning: divide by zero encountered in log
+  loss = (-1 / n_samples) * np.sum(Y * np.log(predictions) + (1 - Y) * np.log(1 - predictions))
+Epoch 1 : Loss inf
+Epoch 2 : Loss nan
+Epoch 3 : Loss inf
+Epoch 4 : Loss nan
+Epoch 5 : Loss inf
+
+Apres ajout de preprocessing (min/max):
+
